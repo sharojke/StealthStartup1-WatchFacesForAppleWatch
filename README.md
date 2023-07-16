@@ -223,40 +223,48 @@ Of course, in addition to this, a lot of small tasks have been completed and a l
 
 The main task was to figure out how to generate a watchface file for different types of dials. It took quite a long time to learn how to support all possible types of dials. Below are the proofs that the dials are generated in our application and then fall on the watch itself:
 
-| <img title="Photo" src="/Resources/GIF/install-photo.gif" width="200"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-2.PNG" width="300"/> |
+| <img title="Photo" src="/Resources/GIF/install-photo.gif" width="200"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-0.PNG" width="300"/> |
 |:--:|
+| <img title="Photo" src="/Resources/Images/install-photo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-2.PNG" width="300"/> |
 | *Photo* |
 
-| <img title="Portrait" src="/Resources/GIF/install-portrait.gif" width="200"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-2.PNG" width="300"/> |
+| <img title="Portrait" src="/Resources/GIF/install-portrait.gif" width="200"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-0.PNG" width="300"/> |
 |:--:|
+| <img title="Portrait" src="/Resources/Images/install-portrait-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-2.PNG" width="300"/> |
 | *Portrait* |
 
 | <img title="Animated" src="/Resources/GIF/install-animated.gif" width="200"/> &nbsp;&nbsp; <img title="Animated" src="/Resources/GIF/install-animated-0.gif" width="200"/> &nbsp;&nbsp; <img title="Animated" src="/Resources/GIF/install-animated-1.gif" width="200"/> |
 |:--:|
 | *Animated* |
 
-| <img title="Meridian" src="/Resources/GIF/install-meridian.gif" width="200"/> &nbsp;&nbsp; <img title="Meridian" src="/Resources/Images/install-meridian-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Meridian" src="/Resources/Images/install-meridian-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Meridian" src="/Resources/Images/install-meridian-2.PNG" width="300"/> |
+| <img title="Meridian" src="/Resources/GIF/install-meridian.gif" width="200"/> &nbsp;&nbsp; <img title="Meridian" src="/Resources/Images/install-meridian-0.PNG" width="300"/> |
 |:--:|
+| <img title="Meridian" src="/Resources/Images/install-meridian-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Meridian" src="/Resources/Images/install-meridian-2.PNG" width="300"/> |
 | *Meridian* |
 
-| <img title="Modular Compact" src="/Resources/GIF/install-modularcompact.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Compact" src="/Resources/Images/install-modularcompact-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Compact" src="/Resources/Images/install-modularcompact-1.PNG" width="300"/> |
+| <img title="Modular Compact" src="/Resources/GIF/install-modularcompact.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Compact" src="/Resources/Images/install-modularcompact-0.PNG" width="300"/> |
 |:--:|
+| <img title="Modular Compact" src="/Resources/Images/install-modularcompact-1.PNG" width="300"/> |
 | *Modular Compact* |
 
-| <img title="Infograph" src="/Resources/GIF/install-infograph.gif" width="200"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-2.PNG" width="300"/> |
+| <img title="Infograph" src="/Resources/GIF/install-infograph.gif" width="200"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-0.PNG" width="300"/> |
 |:--:|
+| <img title="Infograph" src="/Resources/Images/install-infograph-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-2.PNG" width="300"/> |
 | *Infograph* |
 
-| <img title="Infograph Modular" src="/Resources/GIF/install-infographmodular.gif" width="200"/> &nbsp;&nbsp; <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-2.PNG" width="300"/> |
+| <img title="Infograph Modular" src="/Resources/GIF/install-infographmodular.gif" width="200"/> &nbsp;&nbsp; <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-0.PNG" width="300"/> |
 |:--:|
+| <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Infograph Modular" src="/Resources/Images/install-infographmodular-2.PNG" width="300"/> |
 | *Infograph Modular* |
 
-| <img title="XLarge" src="/Resources/GIF/install-xlarge.gif" width="200"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-0.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-1.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-2.PNG" width="300"/> |
+| <img title="XLarge" src="/Resources/GIF/install-xlarge.gif" width="200"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-0.PNG" width="300"/> |
 |:--:|
+| <img title="XLarge" src="/Resources/Images/install-xlarge-1.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-2.PNG" width="300"/> |
 | *XLarge* |
 
-| <img title="Modular Duo" src="/Resources/GIF/install-modularduo.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-2.PNG" width="300"/> |
+| <img title="Modular Duo" src="/Resources/GIF/install-modularduo.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-0.PNG" width="300"/> |
 |:--:|
+<img title="Modular Duo" src="/Resources/Images/install-modularduo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-2.PNG" width="300"/> |
 | *Modular Duo* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
