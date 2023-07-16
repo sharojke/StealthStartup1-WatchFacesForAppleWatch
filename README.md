@@ -50,10 +50,10 @@
       <ul>
         <li><a href="#support-for-variety-of-watch-types">Support for variety of watch types</a></li>
         <li><a href="#complication-data">Complication Data</a></li>
-        <li><a href="#health-kit">HealthKit</a></li>
+        <li><a href="#health-kit-and-location-permissions">HealthKit and Location Permissions</a></li>
         <li><a href="#custom-animations">Custom Animations</a></li>
         <li><a href="#widgets">Widgets</a></li>
-        <li><a href="#in-app-urchase">In-App Purchase</a></li>
+        <li><a href="#in-app-purchase">In-App Purchase</a></li>
         <li><a href="#types-of-monetization">Types of monetization</a></li>
         <li><a href="#instructions-on-tilda">Instructions on Tilda</a></li>
       </ul>
@@ -223,15 +223,15 @@ Of course, in addition to this, a lot of small tasks have been completed and a l
 
 The main task was to figure out how to generate a watchface file for different types of dials. It took quite a long time to learn how to support all possible types of dials. Below are the proofs that the dials are generated in our application and then fall on the watch itself:
 
-| <img title="Photo" src="/Resources/GIF/install-photo.gif" width="200"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-0.PNG" width="300"/> |
+| <img title="Photo" src="/Resources/GIF/install-photo.gif" width="200"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Photo" src="/Resources/Images/install-photo-2.PNG" width="300"/> |
 |:--:|
 | *Photo* |
 
-| <img title="Portrait" src="/Resources/GIF/install-portrait.gif" width="200"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-1.PNG" width="300"/> |
+| <img title="Portrait" src="/Resources/GIF/install-portrait.gif" width="200"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Portrait" src="/Resources/Images/install-portrait-2.PNG" width="300"/> |
 |:--:|
 | *Portrait* |
 
-| <img title="Animated" src="/Resources/GIF/install-animated.gif" width="200"/> &nbsp;&nbsp; <img title="Animated" src="/Resources/GIF/install-animated-0.gif" width="200"/> |
+| <img title="Animated" src="/Resources/GIF/install-animated.gif" width="200"/> &nbsp;&nbsp; <img title="Animated" src="/Resources/GIF/install-animated-0.gif" width="200"/> &nbsp;&nbsp; <img title="Animated" src="/Resources/GIF/install-animated-1.gif" width="200"/> |
 |:--:|
 | *Animated* |
 
@@ -251,11 +251,11 @@ The main task was to figure out how to generate a watchface file for different t
 |:--:|
 | *Infograph Modular* |
 
-| <img title="XLarge" src="/Resources/GIF/install-xlarge.gif" width="200"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-0.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-1.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-2.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-3.PNG" width="300"/> |
+| <img title="XLarge" src="/Resources/GIF/install-xlarge.gif" width="200"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-0.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-1.PNG" width="300"/> &nbsp;&nbsp; <img title="XLarge" src="/Resources/Images/install-xlarge-2.PNG" width="300"/> |
 |:--:|
 | *XLarge* |
 
-| <img title="Modular Duo" src="/Resources/GIF/install-modularduo.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-2.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-3.PNG" width="300"/> |
+| <img title="Modular Duo" src="/Resources/GIF/install-modularduo.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Duo" src="/Resources/Images/install-modularduo-2.PNG" width="300"/> |
 |:--:|
 | *Modular Duo* |
 
@@ -274,49 +274,86 @@ All the information that is displayed on the packages was written in WatchKitExt
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### HealthKit
+### HealthKit and Location Permissions
 
-In order for us to use data from the Health application, the application needs access to user data. In this case, we used read access, but not write access.
+In order for us to use data from the Health application, the application needs access to user data. In this case, we used read access, but not write access. In addition to receiving data on the health status of users, we use the user's location to show them relevant weather information.
 
-| <img title="HealthKit permissions" src="/Resources/GIF/health-kit-permissions.gif" width="200"/> |
+| <img title="HealthKit and Location Permissions" src="/Resources/GIF/permissions.gif" width="200"/> |
 |:--:|
-| *HealthKit permissions* |
+| *HealthKit and Location Permissions* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Custom Animations
 
-123
+Various animations are an mandatory part of applications. Some of the most beautiful and complex in terms of code are listed below
+
+| <img title="Splash-Onboarding-Subscription 1" src="/Resources/GIF/animation-1.gif" width="200"/> &nbsp;&nbsp; <img title="Splash-Onboarding-Subscription 2" src="/Resources/GIF/animation-2.gif" width="200"/> |
+|:--:|
+| *Splash-Onboarding-Subscription* |
+
+| <img title="Custom Push and Pop animations 1" src="/Resources/GIF/animation-3.gif" width="200"/> &nbsp;&nbsp; <img title="Custom Push and Pop animations 2" src="/Resources/GIF/animation-4.gif" width="200"/> |
+|:--:|
+| *Custom Push and Pop animations* |
+
+| <img title="Animations of Arrows 1" src="/Resources/GIF/animation-5.gif" width="200"/> &nbsp;&nbsp; <img title="Animations of Arrows 2" src="/Resources/GIF/animation-6.gif" width="200"/> &nbsp;&nbsp; <img title="Animations of Arrows 3" src="/Resources/GIF/animation-7.gif" width="200"/> |
+|:--:|
+| *Animations of Arrows* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Widgets
 
-123
+Different types of widgets with a variety of information. Despite the fact that the number of widgets and their variety is quite small, widgets could be added remotely via Firebase. Elements of widgets are created in the widget-extension on SwiftUI, and displayed in the application using the UIHostingController.
 
-| <img title="Style 1" src="/Resources/Images/install-widget-0.PNG" width="400"/> |
-|:--:|
-| <img title="Style 2" src="/Resources/Images/install-widget-1.PNG" width="400"/> |
-| <img title="Style 3" src="/Resources/Images/install-widget-2.PNG" width="400"/> |
-| *Widget styles* |
+| <img title="Install Widgets 1" src="/Resources/GIF/install-widgets-0.gif" width="200"/> | <img title="Install Widgets 2" src="/Resources/GIF/install-widgets-1.gif" width="200"/> | <img title="Install Widgets 3" src="/Resources/GIF/install-widgets-2.gif" width="200"/> |
+|:--:|:--:|:--:|
+| *All in One* | *Motivation* | *Today* |
+| <img title="Install Widgets 4" src="/Resources/GIF/install-widgets-3.gif" width="200"/> | <img title="Install Widgets5" src="/Resources/GIF/install-widgets-4.gif" width="200"/> | <img title="Install Widgets 6" src="/Resources/GIF/install-widgets-5.gif" width="200"/> |
+| *Time* | *Battery & Storage* | *Pedometer* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### In-App Purchase
 
-123
+In-app purchases are made using [Adapty](https://adapty.io/).
+
+| <img title="In-App Purchase" src="/Resources/GIF/in-app.gif" width="200"/> |
+|:--:|
+| *In-App Purchase* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Types of monetization
 
-123
+The application implements 3 types of monetization, which are configured remotely using Firebase.
+- Regular subscription using [Adapty](https://adapty.io/).
+
+| <img title="Type 1" src="/Resources/Images/monetization-type-0.PNG" width="300"/> |
+|:--:|
+| *Type 1* |
+
+- Viewing an ad for some action. We used [Google AdMob](https://admob.google.com/home/) and for particular countries [Yandex Ads](https://ads.yandex.com/welcome).
+
+| <img title="Type 2" src="/Resources/Images/monetization-type-1.PNG" width="300"/> |
+|:--:|
+| *Type 2* |
+
+- Viewing an ad for some action with limitations. 2 installations per day for example. We used [Google AdMob](https://admob.google.com/home/) and for particular countries [Yandex Ads](https://ads.yandex.com/welcome).
+
+| <img title="Type 3" src="/Resources/Images/monetization-type-2-0.PNG" width="300"/> &nbsp;&nbsp; <img title="Type 3" src="/Resources/Images/monetization-type-2-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Type 3" src="/Resources/Images/monetization-type-2-2.PNG" width="300"/> |
+|:--:|
+| *Type 3* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Instructions on Tilda
 
-123
+We needed to show some information using WebView. Web pages are made using [Tilda](https://tilda.cc/?lang=en). All the instructions of the dials on Tilda were written by me.
+
+| <img title="Tilda page" src="/Resources/GIF/tilda.gif" width="200"/> |
+|:--:|
+| *Tilda page* |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
