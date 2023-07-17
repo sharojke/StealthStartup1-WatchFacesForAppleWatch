@@ -32,6 +32,7 @@
             <li><a href="#viewing-widgets">Viewing Widgets</a></li>
             <li><a href="#editing-a-widget">Editing a Widget</a></li>
             <li><a href="#support-for-all-possible-watch-series-and-watchOS">Support for all possible Watch Series and watchOS</a></li>
+            <li><a href="#watch-app">Watch App</a></li>
           </ul>
         <li><a href="#company">Company</a></li>
         <li><a href="#team-composition">Team Composition</a></li>
@@ -150,6 +151,15 @@ The app supports all possible apple watches, as well as all watchOS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Watch App
+
+| <img title="Watch App" src="/Resources/Images/watch-app-0.PNG" width="250"/> &nbsp;&nbsp; <img title="Watch App" src="/Resources/Images/watch-app-1.PNG" width="250"/> &nbsp;&nbsp; <img title="Watch App" src="/Resources/Images/watch-app-2.PNG" width="250"/> |
+|:--:|
+| <img title="Watch App" src="/Resources/Images/watch-app-3.PNG" width="250"/> &nbsp;&nbsp; <img title="Watch App" src="/Resources/Images/watch-app-4.PNG" width="250"/> |
+| *Watch App* |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Company
 
 A startup initiated by my colleague from our previous place of work. The main reasons for creating the startup are the partial preservation of the team and the implementation of ideas for applications that could not be implemented in the previous company.
@@ -244,7 +254,7 @@ The main task was to figure out how to generate a watchface file for different t
 
 | <img title="Modular Compact" src="/Resources/GIF/install-modularcompact.gif" width="200"/> &nbsp;&nbsp; <img title="Modular Compact" src="/Resources/Images/install-modularcompact-0.PNG" width="300"/> |
 |:--:|
-| <img title="Modular Compact" src="/Resources/Images/install-modularcompact-1.PNG" width="300"/> |
+| <img title="Modular Compact" src="/Resources/Images/install-modularcompact-1.PNG" width="300"/> &nbsp;&nbsp; <img title="Modular Compact" src="/Resources/Images/install-modularcompact-2.PNG" width="300"/> |
 | *Modular Compact* |
 
 | <img title="Infograph" src="/Resources/GIF/install-infograph.gif" width="200"/> &nbsp;&nbsp; <img title="Infograph" src="/Resources/Images/install-infograph-0.PNG" width="300"/> |
@@ -304,7 +314,7 @@ Various animations are an mandatory part of applications. Some of the most beaut
 |:--:|
 | *Custom Push and Pop animations* |
 
-| <img title="Animations of Arrows 1" src="/Resources/GIF/animation-5.gif" width="200"/> &nbsp;&nbsp; <img title="Animations of Arrows 2" src="/Resources/GIF/animation-6.gif" width="200"/> &nbsp;&nbsp; <img title="Animations of Arrows 3" src="/Resources/GIF/animation-7.gif" width="200"/> |
+| <img title="Animations of Arrows 1" src="/Resources/GIF/animation-5.gif" width="200"/> &nbsp;&nbsp; <img title="Animations of Arrows 2" src="/Resources/GIF/animation-6.gif" width="200"/> |
 |:--:|
 | *Animations of Arrows* |
 
