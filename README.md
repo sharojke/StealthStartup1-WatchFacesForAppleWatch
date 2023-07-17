@@ -31,7 +31,7 @@
             <li><a href="#creating-and-editing-a-watch-face">Creating and Editing a Watch Face</a></li>
             <li><a href="#viewing-widgets">Viewing Widgets</a></li>
             <li><a href="#editing-a-widget">Editing a Widget</a></li>
-            <li><a href="#support-for-all-possible-watch-series-and-watchOS">Support for all possible Watch Series and watchOS</a></li>
+            <li><a href="#support-for-all-possible-watch-series-and-watch-os">Support for all possible Watch Series and watch OS</a></li>
             <li><a href="#watch-app">Watch App</a></li>
           </ul>
         <li><a href="#company">Company</a></li>
@@ -51,7 +51,7 @@
       <ul>
         <li><a href="#support-for-variety-of-watch-types">Support for variety of watch types</a></li>
         <li><a href="#complication-data">Complication Data</a></li>
-        <li><a href="#health-kit-and-location-permissions">HealthKit and Location Permissions</a></li>
+        <li><a href="#health-kit-and-location-permissions">Health Kit and Location Permissions</a></li>
         <li><a href="#custom-animations">Custom Animations</a></li>
         <li><a href="#widgets">Widgets</a></li>
         <li><a href="#in-app-purchase">In-App Purchase</a></li>
@@ -141,7 +141,7 @@ Users have the ability to edit widgets:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Support for all possible Watch Series and watchOS
+#### Support for all possible Watch Series and watch OS
 
 The app supports all possible apple watches, as well as all watchOS
 
@@ -292,7 +292,7 @@ All the information that is displayed on the packages was written in WatchKitExt
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### HealthKit and Location Permissions
+### Health Kit and Location Permissions
 
 In order for us to use data from the Health application, the application needs access to user data. In this case, we used read access, but not write access. In addition to receiving data on the health status of users, we use the user's location to show them relevant weather information.
 
