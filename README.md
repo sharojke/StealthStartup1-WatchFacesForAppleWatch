@@ -367,7 +367,7 @@ The application implements 3 types of monetization, which are configured remotel
 
 ### Instructions on Tilda
 
-We needed to show some information using WebView. Web pages are made using [Tilda](https://tilda.cc/?lang=en). All the instructions of the dials on Tilda were written by me.
+We needed to show some information using WebView. Web pages are made using [Tilda](https://tilda.cc/?lang=en).
 
 | <img title="Tilda page" src="/Resources/GIF/tilda.gif" width="200"/> |
 |:--:|
