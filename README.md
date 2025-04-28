@@ -5,15 +5,8 @@
 
 <br />
 <div align="center">
-  <img title="App Icon" src="/Resources/Images/app-icon.JPG" alt="Logo" height="200">
-  
+  <img title="App Icon" src="/Resources/Images/WatchFaces2-wide.jpg" alt="Logo" height="200">
   <h3 align="center">Watch Faces #2</h3>
-  
-  <p align="center">
-    <em>
-      An application that helps people decorate their apple watches
-    </em>
-  </p>
 </div>
 
 
